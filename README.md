@@ -7,11 +7,13 @@ A compact, educational re-implementation of the Transformer architecture describ
 
 Features :
 
-Encoder-decoder implementation with multi-head attention
+decoder-only implementation with multi-head attention
 
-Trainable on small datasets with limited computational resources
+includes RLHF , memory and CPU optimization Tricks
 
 Clean, annotated code for study and modification
+
+contains dynamic learning to handle new lexicon 
 
 Performance :
 
