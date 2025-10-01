@@ -3,7 +3,6 @@ import torch.nn as n
 import torch.optim as optim
 import torch.nn.functional as f
 import torch.distributions as dist
-from sklearn.preprocessing import StandardScaler
 import math 
 import os
 
@@ -473,3 +472,4 @@ t.save({
         "vocab": toyds
     }, "transformer_checkpoint.pth")
 print("💾 Checkpoint saved")
+
