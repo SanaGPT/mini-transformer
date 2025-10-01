@@ -1,29 +1,20 @@
 # mini-transformer
 
-**A transformer-based chatbot trained on Persian(Dari) conversation data with reinforcement learning from human feedback (RLHF).
+Title: Mini-Transformer: A Lightweight Transformer Implementation from Scratch
 
-**Features : 
-Transformer Architecture: Custom implementation with multi-head attention
+Overview :
+A compact, educational re-implementation of the Transformer architecture described in Attention is All You Need. The project focuses on readability, simplicity, and accessibility for learners.
 
-Persian(Dari) Language: Trained on Persian conversation corpus
+Features :
 
-RLHF Training: Reinforcement learning from human feedback
+Encoder-decoder implementation with multi-head attention
 
-Dynamic Vocabulary: Expands vocabulary with new user inputs
+Trainable on small datasets with limited computational resources
 
-Checkpoint System: Saves and loads training progress
+Clean, annotated code for study and modification
 
-CPU Optimization: Batched data loading with gradual feeding for memory efficiency
+Performance :
 
-**Requirements : 
-python
-torch
-os
-math
+Trained on toy language modeling datasets
 
-**Usage : 
-The model trains on Persian dialogue data and can generate contextual responses. Includes dynamic learning to handle new vocabulary and conversation patterns. Optimized for CPU with batched processing to handle large datasets efficiently.
-
-note : Trained on emotional expressions, animals, colors, foods, and daily conversations for children
-
-**story behind it: I was enthusiastic to code an Educational AI , particularly made for children. and this project it its first segment
+Demonstrates : attention mechanisms, positional encoding, and layer normalization
