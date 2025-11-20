@@ -8,3 +8,5 @@ Features :  decoder-only implementation with multi-head attention  includes RLHF
 Performance :  Trained on toy language modeling datasets  
 
 Demonstrates : attention mechanisms, positional encoding, and layer normalization
+
+**aditional note : the project is incompleted yet
